@@ -17,7 +17,7 @@ labels:
   component: ci
 spec:
   # Use service account that can deploy to all namespaces
-  serviceAccountName: kubeconfig-sa # cd-jenkins
+  serviceAccountName: cd-jenkins
   containers:
   - name: kubectl
     image: allokubs/kubectl
